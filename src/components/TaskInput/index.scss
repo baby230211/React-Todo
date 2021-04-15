@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.task-input {
+  width: 80%;
+  margin: 0 auto;
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+  .task-add {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+  }
+}

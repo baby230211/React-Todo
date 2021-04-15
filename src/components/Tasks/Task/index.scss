@@ -1,0 +1,42 @@
+.task {
+  width: 90%;
+  margin: auto;
+  padding: 0px 30px;
+  position: relative;
+  span {
+    flex: 1;
+  }
+  input {
+    width: 100%;
+    padding: 5px;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    input[type='checkbox'] {
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+      align-self: baseline;
+    }
+  }
+  .button-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    button {
+      flex: 1;
+      padding: 10px;
+      margin: 10px;
+    }
+    .edit {
+      background-color: white;
+      color: black;
+    }
+    .delete {
+      color: white;
+      background-color: brown;
+      border: none;
+    }
+  }
+}
